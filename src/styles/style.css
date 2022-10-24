@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* body .App {
+  text-align: center;
+}
+
+* body .App input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+* body .App h1 {
+  border: 2px solid black;
+  background: black;
+  color: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+* body .App .mealContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+* body .App .mealContainer h4 {
+  margin: 20px;
+  color: red;
+}
+
+* body .App .mealContainer .meal-card {
+  height: 820px;
+  border: 3px solid #890f0f;
+  border-radius: 10px;
+  margin: 10px;
+  width: 25%;
+}
+
+* body .App .mealContainer .meal-card img {
+  height: 280px;
+}
+
+@media screen and (max-width: 1200px) {
+  * body .App .mealContainer .meal-card img {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  * body .App .mealContainer .meal-card img {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  * body .App .mealContainer .meal-card img {
+    height: 210px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  * body .App .mealContainer .meal-card img {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  * body .App .mealContainer .meal-card img {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 632px) {
+  * body .App .mealContainer .meal-card img {
+    height: 120px;
+  }
+}
+
+* body .App .mealContainer .meal-card p {
+  font-size: 0.8em;
+  margin: 20px;
+}
+/*# sourceMappingURL=style.css.map */
